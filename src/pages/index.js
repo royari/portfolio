@@ -217,6 +217,7 @@ export const pageQuery = graphql`
             title
             name
             email
+            email2
             profileImage {
               childImageSharp {
                 fluid(maxWidth: 400, quality: 90) {
