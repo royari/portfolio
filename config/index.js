@@ -75,7 +75,7 @@ module.exports = {
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/alpharoy14",
+      url: "https://twitter.com/daamroy",
     },
     {
       name: "Mail",
