@@ -79,7 +79,7 @@ module.exports = {
     },
     {
       name: "Mail",
-      url: "mailto:aroy@ucdavis.edu",
+      url: "mailto:royarindaam@gmail.com",
     },
   ],
 

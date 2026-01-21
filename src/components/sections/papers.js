@@ -140,37 +140,23 @@ const Papers = () => {
         //   .catch(error => console.log(error))
 
         const article = [
-            // {
-            //   "title": "Kadmik (Early Stage EdTech Startup)",
-            //   "start-date": "2021-01-02",
-            //   "end-date": "2021-09-20",
-            //   "date": "2018-05-15",
-            //   "link": "127.0.0.1",
-            //   "categories": "Core Team Member & Backend Engineer"
-            // },
-            // {
-            //   "title": "ICICI Lombard",
-            //   "start-date": "2021-01-02",
-            //   "end-date": "2021-09-20",
-            //   "date": "2018-05-15",
-            //   "link": "127.0.0.1",
-            //   "categories": "Senior Software Engineer"
-            // },
+            {
+              "title": "Multi-participant media control and playback",
+              "date": "2022-09-01",
+              "link": "https://patents.google.com/patent/US11902607B1/en?oq=11902607",
+              "categories": "Patent"
+            },
             {
               "title": "Android Malware Detection based on Vulnerable Feature Aggregation",
-              "start-date": "2021-01-02",
-              "end-date": "2021-09-20",
               "date": "2020-05-15",
               "link": "https://www.sciencedirect.com/science/article/pii/S1877050920315441?via%3Dihub",
               "categories": "Research Paper"
             },
             {
               "title": "Forking Around: Correlation of forking practices with the success of a project",
-              "start-date": "2021-01-02",
-              "end-date": "2021-09-20",
               "date": "2018-05-15",
               "link": "http://arxiv.org/abs/2112.14464",
-              "categories": "ECS260"
+              "categories": "Research Paper"
             }
         ]
         setArticles(article)
@@ -186,7 +172,7 @@ const Papers = () => {
       animate={articlesControls}
     >
       <StyledContentWrapper>
-        <h3 className="section-title">Academic Papers</h3>
+        <h3 className="section-title">Publications & Patents</h3>
         <div className="articles">
           {articles
             ? articles.map(item => (
